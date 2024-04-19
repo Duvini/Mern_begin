@@ -55,6 +55,7 @@ function App() {
           <div className='food' key={key}>
             <h1>{val.foodName}</h1>
             <h1> {val.daysSinceIAte} </h1>
+            <h1>Helo</h1>
             <input type="text" placeholder='New Food Name...' onChange={(event)=>{
               setNewFoodName(event.target.value)
               }
